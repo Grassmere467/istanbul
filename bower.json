@@ -1,0 +1,23 @@
+{
+  "name": "istanbul",
+  "main": "index.js",
+  "version": "0.2.9",
+  "homepage": "https://github.com/Grassmere467/istanbul",
+  "authors": [
+    "DHunt <DHunt@glgroup.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io-client": "~0.9.16"
+  }
+}
