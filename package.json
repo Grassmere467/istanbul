@@ -60,7 +60,9 @@
         "js-yaml": "3.x",
         "express": "3.5.1",
         "socket.io": "*",
-        "node-http-proxy": "*"
+        "http-proxy": "1.1.4",
+        "connect": "~2.11.0",
+        "request": "*"
     },
     "devDependencies": {
         "rimraf": "2.2.x",
