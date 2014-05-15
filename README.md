@@ -182,6 +182,12 @@ License
 
 istanbul is licensed under the [BSD License](http://github.com/gotwarlost/istanbul/raw/master/LICENSE).
 
+The realtime feature
+--------------------
+
+This regenerates the reports at set intervals as the application is exercised.  It supports both server and client side code coverage.
+
+
 Third-party libraries
 ---------------------
 
