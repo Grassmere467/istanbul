@@ -16,5 +16,6 @@ node_modules/
 .idea/
 html-report/
 build/
+public/
 
 npm-debug.log

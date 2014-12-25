@@ -3,6 +3,78 @@ Changelog
 
 <table>
 <tr>
+<td>v0.3.5</td>
+<td>
+<p>Merge #275 - `--include-all-sources` option. Thanks @gustavnikolaj</p>
+<p>
+The `--preload-sources` option is now deprecated and superseded by the
+`--include-all-sources` option instead. This provides a better coverage representation
+of the code that has not been included for testing.
+</p>
+</td>
+</tr>
+<tr>
+<td>v0.3.4</td>
+<td>Merge #219 - Support reporting within symlink/junction. Thanks to @dougwilson</td>
+</tr>
+<tr>
+<td>v0.3.3</td>
+<td>Merge #268 - per file coverage enforcement. Thanks to @ryan-roemer</td>
+</tr>
+<tr>
+<td>v0.3.2</td>
+<td>Republish 0.3.1 because of bad shasum</td>
+</tr>
+<tr>
+<td>v0.3.1</td>
+<td>Fixes #249</td>
+</tr>
+<tr>
+<td>v0.3.0</td>
+<td>
+    The *reports* release. **Potentially backwards-incompatible** if you are using
+    undocumented features or custom report implementations.
+    <ul>
+        <li>Change report command line to support multiple reports, add back-compat processing with warnings</li>
+        <li>Enable `report` command to read report list from config, thanks to @piuccio</li>
+        <li>Support multiple reports for `cover` and `report` commands</li>
+        <li>Support per-report config options in configuration file</li>
+        <li>Turn reports into event emitters so they can signal `done`</li>
+        <li>Add `Reporter` class to be able to generate multiple reports</li>
+        <li>Add a bunch of API docs, refactor README</li>
+    </ul>
+</td>
+</tr>
+<tr>
+<td>v0.2.16</td><td>Make YUI links https-always since relative links break local
+filesystem use-case
+</td>
+</tr>
+<tr>
+<td>v0.2.15</td><td>make link protocols relative so they don't break on https connections
+(thanks to @yasyf)
+</td>
+</tr>
+<tr>
+<td>v0.2.14</td><td>Fix hook to deal with non-string/ missing filenames
+(thanks to @jason0x43), update dependencies
+</td>
+</tr>
+<tr>
+<td>v0.2.13</td><td>Add `--preload-sources` option to `cover` command to make
+code not required by tests to appear in the coverage report.
+</td>
+</tr>
+<tr>
+<td>v0.2.12</td><td>Text summary as valid markdown, thanks to @smikes</td>
+</tr>
+<tr>
+<td>v0.2.11</td><td>Allow source map generation, thanks to @jason0x43</td>
+</tr>
+<tr>
+<td>v0.2.10</td><td>Add flag to handle sigints and dump coverage, thanks to @samccone</td>
+</tr>
+<tr>
 <td>v0.2.9</td><td>Fix #202</td>
 </tr>
 <tr>
